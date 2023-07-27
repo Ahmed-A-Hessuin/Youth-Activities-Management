@@ -1,0 +1,94 @@
+.image{
+    background-size: cover !important;
+    background-position: center center;
+    width: 100%;
+    height: 70vh !important;
+    position: relative;
+}
+.coverImage{
+    background-size: cover !important;
+    background-position: center center;
+    /* width: 30% !important; */
+    height: 70vh !important;
+    /* position: relative; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    right: 50%;
+}
+
+h5{
+    position: relative;
+    margin-top: 50%;
+    text-transform: uppercase;
+    color:#f00000;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons{
+    position: relative;
+}
+.down {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* animation: move 1s infinite alternate; */
+}
+
+.down::after {
+    content: "";
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: move 1s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        bottom: 5px;
+    }
+    30% {
+        bottom: 10px;
+    }
+    50% {
+        bottom: 20px;
+    }
+    75% {
+        bottom: 10px;
+    }
+    100% {
+        bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 561px) {
+    .image{
+        background-size: cover !important;
+        background-position: center center;
+        width: 100% !important;
+        height: 50vh !important;
+        position: relative;
+    }
+  }
+@media screen and (min-width: 561px) and (max-width: 800px) {
+    .image{
+        background-size: cover !important;
+        background-position: center center;
+        width: 100% !important;
+        height: 50vh !important;
+        position: relative;
+    }
+  }

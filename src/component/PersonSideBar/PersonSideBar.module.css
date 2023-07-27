@@ -1,0 +1,73 @@
+.sidebar{
+    position: fixed !important;
+    width: 23% !important;
+    height: 90vh;
+    background: #2a2185;
+    border-left: 10px solid #2a2185;
+    transition: 0.5s;
+    overflow: hidden;
+    /* right: -5% !important; */
+    top:71px;
+    right: 5px;
+    border-radius: 5px;
+
+    
+}
+
+
+.tittle{
+
+    color:#fff;
+}
+.tittle i{
+    margin-left: 20px;
+font-size: 22px;
+}
+.sidebar Link:hover {
+    background-color:#fff;
+}
+
+.sidebar Link {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 561px) {
+    .sidebar {
+        width: 20% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+         /* margin-right: -50px; */
+         /* left: -50px; */
+      }
+      .tittle{
+        width: 100%;
+        background-color: #2bc81d;
+      }
+      .number p{
+        color: #2bc81d !important;
+        font-size: 12px !important;
+    }
+    .navbar_nav li{
+        /* background-color: #ff0000; */
+        width: 150% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        margin-right: -140%;
+  }
+  .message{
+    margin-right: -25% !important;
+  }
+      .mainLogo{
+        width: 200% !important;
+
+      }
+   
+
+  }

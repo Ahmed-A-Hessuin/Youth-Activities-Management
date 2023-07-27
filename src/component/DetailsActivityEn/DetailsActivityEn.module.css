@@ -1,0 +1,77 @@
+.body {
+    direction: ltr !important;
+
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    /* margin: auto; */
+}
+
+.h2 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.p {
+    color: #505050;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.slidImage {
+    /* width: 90% !important; */
+    background-size: cover !important;
+    background-position: center center;
+    width: 100%;
+    height: 50vh !important;
+    position: relative;
+    width: 100% !important;
+    margin-top: 20px;
+    border: 1px solid #777;
+}
+
+.button {
+    color: #fff !important;
+    background-color: rgb(41 66 146) !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    font-size: 25px;
+
+}
+
+.errorMsg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    font-size: 25px;
+}
+
+.line {
+    margin-left: 1%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 5px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    opacity: 1 !important;
+}
+
+
+.createdAt {
+    color: #505050;
+    margin-top: 10px;
+    font-size: 20px;
+}

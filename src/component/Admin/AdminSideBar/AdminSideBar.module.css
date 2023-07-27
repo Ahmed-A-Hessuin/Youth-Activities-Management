@@ -1,0 +1,39 @@
+
+
+
+.sidebar{
+    flex:4;
+    margin-top: 1px;
+    position: sticky ;
+    /* width: 300px !important; */
+    width: 95% !important;
+    height: 100%;
+    background: #2a2185;
+    border-left: 10px solid #2a2185;
+    transition: 0.5s;
+    line-height: 50px;
+    margin-left: 2px;
+    
+    /* right: -5% !important; */
+    /* margin-left: 10% !important; */
+}
+
+.tittle{
+    color:#fff;
+}
+.tittle i{
+    margin-left: 20px;
+font-size: 22px;
+}
+.sidebar Link:hover {
+    background-color:#fff;
+}
+
+.sidebar Link {
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+

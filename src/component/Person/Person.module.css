@@ -1,0 +1,206 @@
+.sidebar {
+  flex: 3;
+  margin: auto;
+  margin-left: 50% !important;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.image {
+  margin-right: 40% !important;
+  width: 20%;
+  border: 2px solid #777;
+}
+
+.dd {
+  margin-right: 10% !important;
+}
+
+
+.label {
+  margin-right: 10px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #2a2185;
+
+}
+
+.input {
+  background-color: #eee !important;
+  padding: 10px;
+  margin: 10px;
+  width: 100% !important;
+}
+
+
+.forget {
+  font-size: 22px;
+  color: #c6b0b0d7 !important;
+}
+
+.errorMsg {
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.btn {
+  background-color: rgb(41 66 146);
+  border-radius: 5%;
+  border: none;
+  width: 250px;
+  height: 65px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.forget {
+  font-size: 22px;
+  color: #fff !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.btn:hover {
+  scale: 1.1;
+}
+
+.button {
+  display: none;
+}
+
+.row {
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (min-width: 350px) and (max-width: 561px) {
+  .button {
+    display: block;
+  }
+
+  .PersonSideBar {
+    display: none;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .number p {
+    color: #2bc81d !important;
+    font-size: 12px !important;
+  }
+
+  .navbar_nav li {
+    width: 150% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -140%;
+  }
+
+  .message {
+    margin-right: -25% !important;
+  }
+
+  .mainLogo {
+    width: 200% !important;
+  }
+}
+
+
+@media screen and (min-width: 150px) and (max-width: 670px) {
+  .button {
+    display: block;
+  }
+
+  .PersonSideBar {
+    display: none;
+  }
+
+  .row {
+    display: flex;
+    justify-content: start;
+  }
+
+  .sidebar {
+
+    margin: auto;
+    width: 100%;
+  }
+
+  .btn {
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+  .button {
+    display: block;
+  }
+
+  .PersonSideBar {
+    display: none;
+  }
+
+  .sidebar {
+    margin: auto;
+    width: 100% !important;
+  }
+
+  .input {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 150% !important;
+    /* background-color: #2bc81d !important; */
+  }
+
+  .btn {
+    margin-right: 15%;
+    /* background-color: #ff0000 !important; */
+  }
+
+  .row {
+    display: flex;
+    justify-content: start;
+  }
+
+}
+
+/* @media screen and (min-width: 768px) and (max-width:1200px) {
+
+ .button {
+    display: block;
+  }
+
+  .PersonSideBar {
+    display: none;
+  }
+
+  .row {
+    display: flex;
+    justify-content: start;
+  }
+
+  .sidebar {
+
+    margin: auto;
+    width: 100%;
+  }
+
+  .btn {
+    margin-right: 15%;
+  }
+
+} */
